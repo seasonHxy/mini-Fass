@@ -1,0 +1,26 @@
+{
+  "name": "mini-node-faas-server",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./index.js",
+    "start": "node ./index.js"
+  },
+  "keywords": [
+    "faas",
+    "nodejs"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "crypto-random-string": "^3.3.0",
+    "fs-extra": "^9.0.1",
+    "koa": "^2.13.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-compress": "^5.0.1",
+    "koa-router": "^10.0.0",
+    "koa-send": "^5.0.1",
+    "koa-static": "^5.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
